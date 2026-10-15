@@ -1,0 +1,480 @@
+order_id,customer_id,customer_name,email,phone,city,order_date,product,quantity,unit_price,payment_method,order_status,rating,total_amount
+ORD10001,C1070,Diya Sharma,diya.sharma@example.com,9001338908,Chennai,2026-01-13,Laptop Stand,1,999.0,UPI,Shipped,4,999.0
+ORD10002,C1020,Diya Kumar,diya.kumar@example.com,6341316475,Delhi,2025-10-23,Webcam HD,3,1899.0,Credit Card,Cancelled,4,5697.0
+ORD10003,C1102,Vivaan Gupta,vivaan.gupta@example.com,9672423884,Hyderabad,2025-10-18,Mechanical Keyboard,2,2499.0,Cash on Delivery,Cancelled,4,4998.0
+ORD10004,C1068,Diya Rao,diya.rao@example.com,6482814893,Hyderabad,2025-08-11,Mechanical Keyboard,2,2499.0,Credit Card,Delivered,3,4998.0
+ORD10005,C1121,Rohan Iyer,rohan.iyer@example.com,7465787133,Delhi,2025-09-28,USB-C Hub,2,1299.0,Net Banking,Delivered,3,2598.0
+ORD10006,C1048,Nisha Kumar,nisha.kumar@example.com,9010651333,Bengaluru,2025-07-01,Mechanical Keyboard,4,2499.0,Net Banking,Cancelled,3,9996.0
+ORD10007,C1042,Rahul Sharma,rahul.sharma@example.com,9872343098,Mumbai,2025-05-16,Wireless Mouse,4,799.0,Net Banking,Delivered,1,3196.0
+ORD10008,C1144,Pooja Menon,pooja.menon@example.com,8624751079,Delhi,2025-04-15,Bluetooth Speaker,2,1599.0,Cash on Delivery,Pending,4,3198.0
+ORD10009,C1067,Diya Iyer,diya.iyer@example.com,8348740164,Bengaluru,2025-05-20,Mechanical Keyboard,1,2499.0,Cash on Delivery,Cancelled,3,2499.0
+ORD10010,C1053,Vivaan Gupta,vivaan.gupta@example.com,7322602563,Chennai,2026-02-04,Mechanical Keyboard,3,2499.0,Net Banking,Delivered,4,7497.0
+ORD10011,C1084,Rahul Rao,not_provided,6965569816,Bengaluru,2025-04-02,Mechanical Keyboard,2,2499.0,Cash on Delivery,Delivered,4,4998.0
+ORD10012,C1103,Pooja Gupta,pooja.gupta@example.com,7994680443,Hyderabad,2025-08-04,USB-C Hub,2,1299.0,Net Banking,Returned,4,2598.0
+ORD10013,C1062,Aarav Sharma,aarav.sharma@example.com,9632016328,Mumbai,2025-08-01,Mechanical Keyboard,5,2499.0,Credit Card,Pending,4,12495.0
+ORD10014,C1066,Nisha Singh,nisha.singh@example.com,not_provided,Chennai,2025-11-17,Webcam HD,5,1899.0,Credit Card,Cancelled,3,9495.0
+ORD10016,C1017,Kavya Nair,kavya.nair@example.com,7271937452,Bengaluru,2025-04-13,Wireless Mouse,2,799.0,UPI,Shipped,2,1598.0
+ORD10017,C1136,Vivaan Gupta,vivaan.gupta@example.com,9716572628,Mumbai,2025-09-17,Bluetooth Speaker,1,1599.0,Cash on Delivery,Returned,4,1599.0
+ORD10018,C1071,Arjun Gupta,arjun.gupta@example.com,7678377701,Delhi,2025-09-22,Webcam HD,1,1899.0,Credit Card,Cancelled,4,1899.0
+ORD10019,C1055,Priya Nair,priya.nair@example.com,7524082400,Mumbai,2025-02-21,Webcam HD,2,1899.0,Credit Card,Returned,2,3798.0
+ORD10020,C1063,Meera Reddy,meera.reddy@example.com,9496499091,Bengaluru,2026-02-02,Phone Case,2,299.0,Net Banking,Shipped,2,598.0
+ORD10021,C1029,Karthik Kumar,karthik.kumar@example.com,6249947174,Delhi,2025-05-17,Laptop Stand,1,999.0,Credit Card,Pending,3,999.0
+ORD10022,C1132,Priya Singh,priya.singh@example.com,9175655125,Mumbai,2025-10-27,Webcam HD,1,1899.0,Net Banking,Shipped,4,1899.0
+ORD10023,C1052,Vikram Sharma,vikram.sharma@example.com,6932480861,Hyderabad,2025-08-13,USB-C Hub,2,1299.0,Net Banking,Returned,2,2598.0
+ORD10024,C1129,Pooja Gupta,pooja.gupta@example.com,7787558867,Hyderabad,2026-01-07,Wireless Mouse,2,799.0,Cash on Delivery,Shipped,4,1598.0
+ORD10025,C1134,Vikram Reddy,vikram.reddy@example.com,9459615865,Mumbai,2025-07-29,Wireless Mouse,1,799.0,Credit Card,Delivered,4,799.0
+ORD10026,C1135,Rohan Nair,not_provided,7792374740,Mumbai,2025-03-31,USB-C Hub,1,1299.0,UPI,Pending,3,1299.0
+ORD10027,C1070,Aarav Kumar,aarav.kumar@example.com,7394210470,Bengaluru,2025-05-27,Wireless Mouse,5,799.0,Credit Card,Delivered,5,3995.0
+ORD10028,C1036,Vikram Reddy,vikram.reddy@example.com,8817549651,Chennai,2025-02-16,Phone Case,3,299.0,Net Banking,Delivered,4,897.0
+ORD10029,C1107,Kavya Rao,kavya.rao@example.com,9405377351,Delhi,2025-12-02,USB-C Hub,4,1299.0,UPI,Delivered,4,5196.0
+ORD10030,C1084,Karthik Nair,karthik.nair@example.com,7102053950,Chennai,2025-03-16,Wireless Mouse,2,799.0,Credit Card,Delivered,3,1598.0
+ORD10031,C1102,Vivaan Singh,vivaan.singh@example.com,6592124998,Mumbai,2025-12-31,Mechanical Keyboard,5,2499.0,Net Banking,Pending,5,12495.0
+ORD10032,C1065,Pooja Gupta,pooja.gupta@example.com,6615280988,Hyderabad,2025-02-04,USB-C Hub,5,1299.0,UPI,Cancelled,5,6495.0
+ORD10033,C1057,Arjun Menon,arjun.menon@example.com,8550229612,Mumbai,2025-01-15,Wireless Mouse,2,799.0,Credit Card,Pending,4,1598.0
+ORD10034,C1055,Pooja Patel,pooja.patel@example.com,9840369003,Delhi,2025-08-09,Mechanical Keyboard,3,2499.0,UPI,Delivered,5,7497.0
+ORD10035,C1109,Ishaan Menon,ishaan.menon@example.com,6529751613,Delhi,2025-05-29,Phone Case,4,299.0,UPI,Pending,2,1196.0
+ORD10036,C1039,Karthik Iyer,karthik.iyer@example.com,8527177449,Bengaluru,2025-08-26,USB-C Hub,5,1299.0,Net Banking,Pending,2,6495.0
+ORD10037,C1121,Karthik Gupta,karthik.gupta@example.com,6820377889,Delhi,2025-08-19,USB-C Hub,1,1299.0,UPI,Cancelled,5,1299.0
+ORD10038,C1079,Rohan Gupta,rohan.gupta@example.com,8281685054,Mumbai,2025-06-08,USB-C Hub,1,1299.0,Net Banking,Cancelled,4,1299.0
+ORD10039,C1011,Priya Singh,priya.singh@example.com,7834735977,Mumbai,2025-08-16,Bluetooth Speaker,2,1599.0,Cash on Delivery,Pending,3,3198.0
+ORD10040,C1023,Rohan Kumar,not_provided,9853615305,Chennai,2025-01-14,Power Bank,3,1499.0,Net Banking,Delivered,4,4497.0
+ORD10041,C1031,Sneha Patel,sneha.patel@example.com,6798089324,Bengaluru,2025-11-24,Laptop Stand,4,999.0,Net Banking,Cancelled,4,3996.0
+ORD10042,C1088,Kavya Reddy,kavya.reddy@example.com,8277221704,Chennai,2025-03-10,Mechanical Keyboard,3,2499.0,UPI,Shipped,1,7497.0
+ORD10043,C1086,Vikram Kumar,vikram.kumar@example.com,9169284511,Chennai,2025-07-08,Power Bank,5,1499.0,Cash on Delivery,Shipped,4,7495.0
+ORD10044,C1036,Priya Sharma,priya.sharma@example.com,8569092755,Delhi,2025-03-06,Power Bank,3,1499.0,UPI,Delivered,3,4497.0
+ORD10045,C1018,Diya Iyer,diya.iyer@example.com,not_provided,Mumbai,2025-02-14,USB-C Hub,5,1299.0,Cash on Delivery,Delivered,4,6495.0
+ORD10046,C1081,Ananya Iyer,ananya.iyer@example.com,7268018242,Bengaluru,2025-12-15,Power Bank,5,1499.0,Cash on Delivery,Shipped,5,7495.0
+ORD10047,C1010,Ishaan Menon,ishaan.menon@example.com,9907844736,Bengaluru,2025-11-25,Mechanical Keyboard,1,2499.0,Cash on Delivery,Delivered,1,2499.0
+ORD10048,C1036,Vikram Nair,vikram.nair@example.com,7595327877,Bengaluru,2025-07-16,Wireless Mouse,2,799.0,Net Banking,Delivered,2,1598.0
+ORD10049,C1011,Rahul Gupta,rahul.gupta@example.com,9878499121,Mumbai,2025-07-05,Wireless Mouse,2,799.0,Cash on Delivery,Cancelled,3,1598.0
+ORD10050,C1086,Meera Menon,meera.menon@example.com,8169409749,Delhi,2025-09-01,Power Bank,2,1499.0,UPI,Returned,3,2998.0
+ORD10051,C1035,Nisha Sharma,nisha.sharma@example.com,9527858549,Delhi,2025-12-06,Laptop Stand,3,999.0,Net Banking,Shipped,5,2997.0
+ORD10052,C1037,Rahul Gupta,rahul.gupta@example.com,9473384842,Hyderabad,2026-01-01,Wireless Mouse,2,799.0,UPI,Shipped,4,1598.0
+ORD10054,C1103,Karthik Iyer,karthik.iyer@example.com,7753046374,Mumbai,2025-07-25,Bluetooth Speaker,1,1599.0,UPI,Delivered,5,1599.0
+ORD10055,C1039,Rohan Singh,rohan.singh@example.com,7391878519,Mumbai,2025-12-26,Bluetooth Speaker,4,1599.0,Net Banking,Pending,3,6396.0
+ORD10056,C1101,Meera Sharma,meera.sharma@example.com,9518017046,Hyderabad,2025-10-24,Wireless Mouse,2,799.0,UPI,Cancelled,5,1598.0
+ORD10057,C1076,Aarav Sharma,aarav.sharma@example.com,8243106903,Mumbai,2025-04-28,Phone Case,4,299.0,Credit Card,Delivered,1,1196.0
+ORD10058,C1077,Ishaan Nair,ishaan.nair@example.com,7687056856,Chennai,2025-06-03,Laptop Stand,4,999.0,Cash on Delivery,Shipped,4,3996.0
+ORD10059,C1023,Vikram Gupta,vikram.gupta@example.com,6139837354,Delhi,2025-05-18,Laptop Stand,1,999.0,Net Banking,Shipped,2,999.0
+ORD10060,C1052,Nisha Gupta,nisha.gupta@example.com,6489964235,Hyderabad,2025-01-24,Bluetooth Speaker,4,1599.0,Credit Card,Shipped,4,6396.0
+ORD10061,C1008,Vivaan Rao,vivaan.rao@example.com,6203875099,Bengaluru,2025-07-31,Wireless Mouse,1,799.0,Credit Card,Delivered,1,799.0
+ORD10062,C1068,Arjun Gupta,not_provided,7341016668,Mumbai,2025-07-27,Mechanical Keyboard,3,2499.0,Net Banking,Delivered,3,7497.0
+ORD10063,C1144,Arjun Rao,arjun.rao@example.com,9142939685,Bengaluru,2025-01-09,USB-C Hub,3,1299.0,Credit Card,Delivered,3,3897.0
+ORD10064,C1047,Rahul Kumar,rahul.kumar@example.com,6142626551,Delhi,2026-01-31,Phone Case,1,299.0,Cash on Delivery,Shipped,4,299.0
+ORD10065,C1062,Ananya Rao,ananya.rao@example.com,8472126464,Delhi,2025-03-28,USB-C Hub,4,0.1299,Credit Card,Cancelled,5,0.5196
+ORD10066,C1082,Rohan Patel,rohan.patel@example.com,8479356465,Delhi,2025-06-10,Laptop Stand,5,999.0,Credit Card,Pending,3,4995.0
+ORD10067,C1018,Pooja Kumar,pooja.kumar@example.com,6589113529,Mumbai,2025-10-01,Power Bank,4,1499.0,Net Banking,Cancelled,4,5996.0
+ORD10068,C1036,Ananya Reddy,ananya.reddy@example.com,8717751401,Hyderabad,2025-08-22,Webcam HD,3,1899.0,Credit Card,Delivered,3,5697.0
+ORD10069,C1001,Pooja Kumar,pooja.kumar@example.com,7553714785,Chennai,2026-01-21,Laptop Stand,2,999.0,UPI,Delivered,5,1998.0
+ORD10070,C1047,Rahul Kumar,rahul.kumar@example.com,7579050723,Mumbai,2025-09-08,USB-C Hub,1,1299.0,Cash on Delivery,Cancelled,4,1299.0
+ORD10071,C1139,Diya Patel,diya.patel@example.com,6340745171,Hyderabad,2025-10-07,Wireless Mouse,5,799.0,Credit Card,Cancelled,4,3995.0
+ORD10072,C1105,Diya Iyer,diya.iyer@example.com,7536729466,Bengaluru,2025-12-26,Webcam HD,1,0.1899,Credit Card,Delivered,4,0.1899
+ORD10073,C1054,Karthik Kumar,karthik.kumar@example.com,9500170127,Mumbai,2025-05-26,Webcam HD,3,1899.0,Cash on Delivery,Cancelled,4,5697.0
+ORD10074,C1024,Pooja Reddy,pooja.reddy@example.com,9005162713,Bengaluru,2025-02-09,Laptop Stand,5,999.0,Credit Card,Delivered,4,4995.0
+ORD10075,C1022,Vikram Nair,vikram.nair@example.com,9523413899,Bengaluru,2025-10-29,USB-C Hub,1,1299.0,Net Banking,Shipped,4,1299.0
+ORD10076,C1145,Rohan Kumar,not_provided,6910430068,Mumbai,2026-01-26,Bluetooth Speaker,1,1599.0,Net Banking,Cancelled,4,1599.0
+ORD10077,C1062,Sneha Sharma,sneha.sharma@example.com,7102027588,Bengaluru,2025-08-21,Phone Case,1,299.0,UPI,Cancelled,3,299.0
+ORD10078,C1040,Priya Gupta,priya.gupta@example.com,6307562208,Hyderabad,2025-04-27,Mechanical Keyboard,1,2499.0,UPI,Cancelled,4,2499.0
+ORD10079,C1141,Ishaan Reddy,ishaan.reddy@example.com,7759738320,Mumbai,2025-04-13,Wireless Mouse,2,799.0,Cash on Delivery,Shipped,3,1598.0
+ORD10080,C1105,Sneha Rao,sneha.rao@example.com,9199062344,Hyderabad,2025-10-25,Power Bank,1,1499.0,UPI,Cancelled,5,1499.0
+ORD10081,C1077,Ananya Iyer,ananya.iyer@example.com,7568044206,Delhi,2025-06-17,Wireless Mouse,2,799.0,Credit Card,Delivered,4,1598.0
+ORD10082,C1032,Karthik Singh,karthik.singh@example.com,7966706625,Bengaluru,2025-01-22,Bluetooth Speaker,1,1599.0,Net Banking,Shipped,5,1599.0
+ORD10083,C1091,Aarav Kumar,aarav.kumar@example.com,8205930407,Mumbai,2025-10-17,Power Bank,3,1499.0,Cash on Delivery,Delivered,2,4497.0
+ORD10084,C1007,Kavya Menon,kavya.menon@example.com,8270103930,Hyderabad,2026-02-19,USB-C Hub,2,1299.0,Net Banking,Cancelled,4,2598.0
+ORD10085,C1077,Diya Gupta,diya.gupta@example.com,9528953926,Hyderabad,2026-01-10,USB-C Hub,1,0.1299,Net Banking,Delivered,3,0.1299
+ORD10086,C1081,Sneha Gupta,sneha.gupta@example.com,7315410067,Unknown,2025-08-17,Mechanical Keyboard,3,2499.0,Unknown,Cancelled,4,7497.0
+ORD10088,C1121,Meera Reddy,meera.reddy@example.com,8186256527,Bengaluru,2025-08-30,Webcam HD,4,1899.0,Net Banking,Returned,4,7596.0
+ORD10089,C1060,Nisha Menon,nisha.menon@example.com,6722332061,Mumbai,2025-07-22,Webcam HD,1,1899.0,UPI,Delivered,4,1899.0
+ORD10090,C1144,Diya Reddy,diya.reddy@example.com,not_provided,Bengaluru,2025-07-30,Webcam HD,3,1899.0,Cash on Delivery,Cancelled,5,5697.0
+ORD10091,C1068,Vikram Gupta,vikram.gupta@example.com,9850821486,Mumbai,2025-08-15,Mechanical Keyboard,2,2499.0,Credit Card,Delivered,4,4998.0
+ORD10092,C1141,Nisha Menon,nisha.menon@example.com,6602933334,Hyderabad,2025-05-13,Bluetooth Speaker,2,1599.0,UPI,Delivered,4,3198.0
+ORD10093,C1026,Rahul Menon,rahul.menon@example.com,6545444328,Bengaluru,2025-06-02,Bluetooth Speaker,2,1599.0,UPI,Cancelled,5,3198.0
+ORD10094,C1076,Kavya Rao,kavya.rao@example.com,8825135346,Chennai,2025-02-19,USB-C Hub,2,1299.0,Net Banking,Shipped,5,2598.0
+ORD10095,C1145,Ishaan Kumar,ishaan.kumar@example.com,9525007432,Mumbai,2026-01-02,USB-C Hub,3,1299.0,Credit Card,Delivered,4,3897.0
+ORD10096,C1033,Kavya Patel,kavya.patel@example.com,8478985625,Bengaluru,2025-03-27,Phone Case,2,299.0,UPI,Shipped,3,598.0
+ORD10097,C1012,Vivaan Menon,vivaan.menon@example.com,9618472304,Bengaluru,2025-12-20,Wireless Mouse,1,799.0,UPI,Pending,5,799.0
+ORD10099,C1112,Ishaan Gupta,ishaan.gupta@example.com,6667467621,Delhi,2025-07-10,Webcam HD,1,1899.0,Cash on Delivery,Delivered,2,1899.0
+ORD10100,C1066,Vivaan Reddy,not_provided,9375628900,Hyderabad,2025-12-09,Wireless Mouse,2,799.0,Cash on Delivery,Returned,3,1598.0
+ORD10101,C1026,Nisha Sharma,nisha.sharma@example.com,8883755037,Mumbai,2025-10-13,Phone Case,1,299.0,UPI,Cancelled,4,299.0
+ORD10102,C1030,Karthik Nair,karthik.nair@example.com,6609177982,Mumbai,2026-02-05,Laptop Stand,5,999.0,Credit Card,Pending,1,4995.0
+ORD10103,C1101,Sneha Patel,sneha.patel@example.com,9984858333,Hyderabad,2026-02-17,Webcam HD,5,1899.0,Credit Card,Delivered,3,9495.0
+ORD10104,C1037,Aarav Kumar,aarav.kumar@example.com,8204380571,Unknown,2025-05-17,Wireless Mouse,2,799.0,Credit Card,Shipped,3,1598.0
+ORD10105,C1150,Sneha Gupta,not_provided,6228160648,Delhi,2025-05-31,Laptop Stand,2,999.0,Net Banking,Delivered,5,1998.0
+ORD10106,C1017,Priya Rao,priya.rao@example.com,8335554398,Delhi,2025-10-06,USB-C Hub,4,1299.0,Net Banking,Delivered,5,5196.0
+ORD10108,C1011,Ananya Menon,ananya.menon@example.com,8766072832,Bengaluru,2025-05-29,Bluetooth Speaker,1,1599.0,Cash on Delivery,Delivered,4,1599.0
+ORD10109,C1105,Kavya Nair,kavya.nair@example.com,7129087814,Delhi,2025-04-05,USB-C Hub,1,1299.0,Credit Card,Delivered,4,1299.0
+ORD10110,C1043,Ishaan Kumar,ishaan.kumar@example.com,8525777547,Bengaluru,2026-02-07,Bluetooth Speaker,2,1599.0,Credit Card,Delivered,5,3198.0
+ORD10111,C1093,Nisha Iyer,nisha.iyer@example.com,6658039282,Mumbai,2025-03-10,Laptop Stand,2,999.0,Net Banking,Delivered,3,1998.0
+ORD10112,C1133,Ishaan Reddy,ishaan.reddy@example.com,6846386557,Hyderabad,2025-07-12,Webcam HD,1,1899.0,Net Banking,Pending,3,1899.0
+ORD10113,C1062,Pooja Sharma,pooja.sharma@example.com,6242869904,Bengaluru,2025-03-10,USB-C Hub,1,1299.0,UPI,Returned,4,1299.0
+ORD10114,C1051,Diya Sharma,diya.sharma@example.com,not_provided,Delhi,2025-11-07,Phone Case,1,299.0,UPI,Pending,4,299.0
+ORD10115,C1072,Sneha Reddy,sneha.reddy@example.com,6806356512,Delhi,2025-04-07,Phone Case,2,299.0,UPI,Shipped,3,598.0
+ORD10116,C1114,Diya Nair,not_provided,not_provided,Chennai,2025-09-18,Mechanical Keyboard,2,2499.0,Net Banking,Shipped,5,4998.0
+ORD10117,C1008,Meera Nair,meera.nair@example.com,7021465669,Unknown,2025-12-12,Laptop Stand,1,999.0,UPI,Delivered,2,999.0
+ORD10118,C1131,Ishaan Reddy,ishaan.reddy@example.com,8779071416,Hyderabad,2025-07-13,Webcam HD,5,1899.0,Net Banking,Cancelled,4,9495.0
+ORD10119,C1051,Karthik Singh,karthik.singh@example.com,7952111790,Chennai,2025-04-16,Laptop Stand,2,999.0,Credit Card,Cancelled,5,1998.0
+ORD10120,C1117,Rahul Iyer,rahul.iyer@example.com,7691559428,Bengaluru,2025-12-19,Power Bank,3,1499.0,UPI,Shipped,4,4497.0
+ORD10121,C1050,Pooja Kumar,not_provided,9728857448,Unknown,2026-02-17,USB-C Hub,5,1299.0,UPI,Delivered,3,6495.0
+ORD10122,C1090,Priya Patel,priya.patel@example.com,8722569961,Hyderabad,2025-02-10,Power Bank,5,1499.0,Net Banking,Cancelled,4,7495.0
+ORD10123,C1053,Arjun Reddy,arjun.reddy@example.com,6068114921,Chennai,2025-02-18,Phone Case,1,299.0,UPI,Shipped,4,299.0
+ORD10124,C1116,Priya Menon,priya.menon@example.com,not_provided,Unknown,2025-06-27,Phone Case,2,0.299,Net Banking,Cancelled,5,0.598
+ORD10125,C1096,Priya Kumar,priya.kumar@example.com,not_provided,Chennai,2025-08-05,Webcam HD,2,1899.0,Credit Card,Shipped,4,3798.0
+ORD10126,C1118,Nisha Gupta,nisha.gupta@example.com,8618723460,Bengaluru,2026-01-20,Bluetooth Speaker,1,1599.0,Credit Card,Cancelled,4,1599.0
+ORD10127,C1050,Nisha Patel,nisha.patel@example.com,8024916300,Hyderabad,2025-02-27,Wireless Mouse,2,799.0,Credit Card,Cancelled,2,1598.0
+ORD10128,C1049,Kavya Singh,kavya.singh@example.com,6778487392,Bengaluru,2026-01-06,Phone Case,3,299.0,Credit Card,Returned,5,897.0
+ORD10129,C1016,Sneha Gupta,sneha.gupta@example.com,7945651181,Delhi,2025-09-26,Phone Case,2,299.0,Net Banking,Delivered,1,598.0
+ORD10130,C1015,Ananya Singh,ananya.singh@example.com,6141381138,Hyderabad,2026-02-11,Phone Case,3,299.0,UPI,Shipped,3,897.0
+ORD10131,C1113,Priya Rao,not_provided,not_provided,Unknown,2025-07-10,Bluetooth Speaker,3,1599.0,Net Banking,Returned,4,4797.0
+ORD10132,C1009,Rohan Reddy,rohan.reddy@example.com,7344196931,Mumbai,2025-03-12,Bluetooth Speaker,1,1599.0,Cash on Delivery,Delivered,4,1599.0
+ORD10133,C1002,Sneha Menon,sneha.menon@example.com,7583206799,Mumbai,2025-09-26,Wireless Mouse,2,799.0,UPI,Cancelled,5,1598.0
+ORD10134,C1018,Sneha Nair,sneha.nair@example.com,9655355904,Hyderabad,2025-12-17,Phone Case,3,299.0,UPI,Returned,3,897.0
+ORD10135,C1120,Meera Singh,meera.singh@example.com,8879206980,Bengaluru,2026-01-14,Bluetooth Speaker,2,1599.0,Credit Card,Delivered,5,3198.0
+ORD10136,C1124,Diya Gupta,diya.gupta@example.com,6038457620,Delhi,2025-04-12,Mechanical Keyboard,1,2499.0,Net Banking,Cancelled,4,2499.0
+ORD10137,C1058,Rahul Rao,rahul.rao@example.com,9823298324,Mumbai,2025-08-07,Laptop Stand,1,999.0,Cash on Delivery,Delivered,3,999.0
+ORD10138,C1048,Arjun Iyer,arjun.iyer@example.com,7305172897,Bengaluru,2025-01-14,USB-C Hub,1,1299.0,Cash on Delivery,Cancelled,4,1299.0
+ORD10139,C1063,Ishaan Singh,ishaan.singh@example.com,8699988081,Mumbai,2025-11-08,Phone Case,1,299.0,Net Banking,Delivered,4,299.0
+ORD10140,C1115,Rohan Singh,rohan.singh@example.com,9570279371,Bengaluru,2026-02-03,Mechanical Keyboard,1,2499.0,Credit Card,Delivered,2,2499.0
+ORD10141,C1045,Priya Iyer,priya.iyer@example.com,7123094077,Bengaluru,2025-06-08,Phone Case,2,299.0,Net Banking,Returned,4,598.0
+ORD10142,C1076,Vivaan Menon,vivaan.menon@example.com,7499982795,Hyderabad,2025-02-25,Mechanical Keyboard,1,2499.0,Net Banking,Shipped,5,2499.0
+ORD10143,C1073,Ananya Singh,ananya.singh@example.com,9877293430,Mumbai,2025-09-27,Bluetooth Speaker,2,1599.0,Cash on Delivery,Returned,2,3198.0
+ORD10144,C1087,Diya Gupta,diya.gupta@example.com,9702727857,Mumbai,2025-04-10,Wireless Mouse,2,799.0,Cash on Delivery,Pending,4,1598.0
+ORD10145,C1029,Rahul Iyer,rahul.iyer@example.com,not_provided,Hyderabad,2025-05-20,Bluetooth Speaker,1,1599.0,Net Banking,Shipped,2,1599.0
+ORD10146,C1009,Rohan Nair,rohan.nair@example.com,6570184094,Mumbai,2025-01-03,Phone Case,1,299.0,Cash on Delivery,Shipped,4,299.0
+ORD10147,C1018,Sneha Iyer,sneha.iyer@example.com,9016016629,Hyderabad,2025-01-26,Bluetooth Speaker,5,1599.0,Credit Card,Shipped,5,7995.0
+ORD10148,C1036,Sneha Nair,sneha.nair@example.com,8770171577,Delhi,2025-07-20,Webcam HD,3,1899.0,Credit Card,Cancelled,3,5697.0
+ORD10149,C1145,Pooja Kumar,pooja.kumar@example.com,6997581724,Hyderabad,2025-12-06,Laptop Stand,1,999.0,UPI,Delivered,4,999.0
+ORD10150,C1145,Ishaan Patel,ishaan.patel@example.com,7405800851,Hyderabad,2025-02-15,Phone Case,3,299.0,UPI,Shipped,4,897.0
+ORD10151,C1018,Rohan Sharma,rohan.sharma@example.com,6267969278,Unknown,2025-12-03,USB-C Hub,5,1299.0,Net Banking,Cancelled,5,6495.0
+ORD10152,C1134,Ananya Iyer,ananya.iyer@example.com,9189490580,Hyderabad,2025-09-25,Power Bank,1,1499.0,UPI,Pending,4,1499.0
+ORD10153,C1006,Meera Menon,meera.menon@example.com,8294440192,Hyderabad,2025-03-06,Power Bank,1,1499.0,UPI,Cancelled,3,1499.0
+ORD10154,C1147,Priya Nair,priya.nair@example.com,not_provided,Hyderabad,2026-01-22,Wireless Mouse,2,799.0,UPI,Delivered,4,1598.0
+ORD10155,C1068,Ishaan Patel,ishaan.patel@example.com,8258001061,Bengaluru,2025-08-25,Webcam HD,4,1899.0,Credit Card,Cancelled,4,7596.0
+ORD10156,C1047,Priya Reddy,priya.reddy@example.com,not_provided,Hyderabad,2025-12-05,Webcam HD,5,1899.0,UPI,Shipped,5,9495.0
+ORD10157,C1064,Ananya Menon,ananya.menon@example.com,9425690877,Mumbai,2025-03-18,Wireless Mouse,5,799.0,UPI,Delivered,3,3995.0
+ORD10158,C1051,Vikram Patel,not_provided,9157173203,Chennai,2025-12-05,Wireless Mouse,4,799.0,Credit Card,Returned,4,3196.0
+ORD10159,C1059,Rohan Menon,rohan.menon@example.com,6320204179,Bengaluru,2025-09-08,Wireless Mouse,1,799.0,UPI,Delivered,2,799.0
+ORD10160,C1016,Priya Gupta,not_provided,not_provided,Bengaluru,2026-01-23,Webcam HD,1,1899.0,Net Banking,Delivered,4,1899.0
+ORD10161,C1009,Priya Menon,priya.menon@example.com,8608331819,Delhi,2025-11-10,USB-C Hub,5,1299.0,UPI,Returned,4,6495.0
+ORD10162,C1013,Vivaan Reddy,vivaan.reddy@example.com,6137995635,Delhi,2026-02-07,USB-C Hub,1,1299.0,UPI,Cancelled,4,1299.0
+ORD10163,C1085,Arjun Nair,arjun.nair@example.com,9762534929,Chennai,2025-05-24,Wireless Mouse,1,799.0,Credit Card,Delivered,4,799.0
+ORD10164,C1011,Aarav Kumar,not_provided,6773180632,Bengaluru,2025-08-06,Power Bank,1,1499.0,Net Banking,Shipped,2,1499.0
+ORD10165,C1085,Ananya Kumar,ananya.kumar@example.com,6950850165,Delhi,2025-08-07,Wireless Mouse,2,799.0,Cash on Delivery,Cancelled,5,1598.0
+ORD10166,C1128,Kavya Patel,not_provided,9788178847,Mumbai,2025-02-02,Webcam HD,1,1899.0,Unknown,Shipped,4,1899.0
+ORD10167,C1107,Nisha Gupta,nisha.gupta@example.com,7856955798,Mumbai,2025-04-07,Wireless Mouse,2,799.0,UPI,Shipped,3,1598.0
+ORD10168,C1060,Rohan Iyer,rohan.iyer@example.com,not_provided,Bengaluru,2025-10-22,Wireless Mouse,3,799.0,Credit Card,Pending,5,2397.0
+ORD10169,C1113,Rohan Menon,not_provided,8069375150,Hyderabad,2025-01-21,Mechanical Keyboard,5,2499.0,Credit Card,Shipped,4,12495.0
+ORD10170,C1072,Kavya Sharma,kavya.sharma@example.com,9674266299,Hyderabad,2025-08-17,Bluetooth Speaker,2,1599.0,UPI,Shipped,5,3198.0
+ORD10171,C1141,Rahul Patel,not_provided,9300244714,Mumbai,2025-10-27,Wireless Mouse,2,799.0,Cash on Delivery,Returned,4,1598.0
+ORD10172,C1148,Arjun Iyer,arjun.iyer@example.com,7045650448,Bengaluru,2025-08-25,USB-C Hub,3,1299.0,Credit Card,Delivered,2,3897.0
+ORD10173,C1041,Pooja Gupta,pooja.gupta@example.com,6671120754,Bengaluru,2025-09-15,Laptop Stand,2,999.0,Credit Card,Returned,3,1998.0
+ORD10175,C1137,Meera Iyer,meera.iyer@example.com,7712566383,Bengaluru,2025-09-16,Mechanical Keyboard,2,2499.0,Net Banking,Cancelled,2,4998.0
+ORD10176,C1017,Pooja Nair,pooja.nair@example.com,6678112669,Mumbai,2025-01-07,Bluetooth Speaker,1,1599.0,Net Banking,Delivered,5,1599.0
+ORD10179,C1006,Kavya Menon,not_provided,9503334911,Hyderabad,2025-08-08,Phone Case,1,299.0,Cash on Delivery,Cancelled,3,299.0
+ORD10180,C1127,Karthik Gupta,karthik.gupta@example.com,9371834404,Delhi,2025-11-11,Bluetooth Speaker,1,1599.0,Cash on Delivery,Delivered,2,1599.0
+ORD10181,C1132,Priya Sharma,priya.sharma@example.com,9908357232,Chennai,2025-12-05,Power Bank,2,1499.0,Unknown,Cancelled,5,2998.0
+ORD10182,C1009,Pooja Kumar,pooja.kumar@example.com,8820700159,Chennai,2025-03-11,USB-C Hub,2,1299.0,UPI,Cancelled,5,2598.0
+ORD10183,C1084,Diya Gupta,diya.gupta@example.com,6234764907,Delhi,2025-08-05,Phone Case,2,299.0,Credit Card,Cancelled,4,598.0
+ORD10184,C1141,Sneha Patel,sneha.patel@example.com,9606441343,Mumbai,2026-02-20,Webcam HD,3,1899.0,UPI,Cancelled,4,5697.0
+ORD10185,C1007,Ishaan Singh,ishaan.singh@example.com,9345911238,Bengaluru,2026-02-10,USB-C Hub,5,1299.0,Credit Card,Cancelled,4,6495.0
+ORD10186,C1118,Sneha Reddy,sneha.reddy@example.com,9942152910,Chennai,2025-01-26,Webcam HD,1,1899.0,Net Banking,Returned,2,1899.0
+ORD10187,C1067,Aarav Patel,not_provided,6725636694,Chennai,2025-07-09,Power Bank,2,1499.0,Net Banking,Pending,4,2998.0
+ORD10188,C1045,Vivaan Menon,vivaan.menon@example.com,6586241502,Hyderabad,2025-06-23,USB-C Hub,5,1299.0,Net Banking,Cancelled,4,6495.0
+ORD10189,C1058,Rohan Sharma,rohan.sharma@example.com,9170758777,Chennai,2025-05-14,Wireless Mouse,5,799.0,Credit Card,Delivered,5,3995.0
+ORD10190,C1006,Diya Gupta,diya.gupta@example.com,not_provided,Hyderabad,2025-07-11,Mechanical Keyboard,4,2499.0,UPI,Cancelled,3,9996.0
+ORD10191,C1103,Priya Kumar,priya.kumar@example.com,8925158377,Hyderabad,2025-06-02,USB-C Hub,1,1299.0,Net Banking,Shipped,4,1299.0
+ORD10192,C1020,Vikram Kumar,vikram.kumar@example.com,9490810818,Mumbai,2025-03-07,Webcam HD,1,1899.0,Cash on Delivery,Delivered,4,1899.0
+ORD10193,C1067,Vikram Singh,vikram.singh@example.com,6680061027,Unknown,2025-04-05,USB-C Hub,2,1299.0,UPI,Returned,4,2598.0
+ORD10194,C1137,Sneha Kumar,sneha.kumar@example.com,9601227770,Chennai,2026-01-30,Mechanical Keyboard,2,2499.0,Net Banking,Shipped,5,4998.0
+ORD10195,C1015,Nisha Nair,nisha.nair@example.com,8671795760,Delhi,2025-10-23,Wireless Mouse,4,799.0,Cash on Delivery,Shipped,4,3196.0
+ORD10196,C1053,Nisha Iyer,nisha.iyer@example.com,7971674338,Hyderabad,2025-03-08,Mechanical Keyboard,5,2499.0,Credit Card,Cancelled,5,12495.0
+ORD10197,C1131,Arjun Iyer,arjun.iyer@example.com,6991808121,Delhi,2025-08-13,Mechanical Keyboard,1,2499.0,Unknown,Delivered,5,2499.0
+ORD10198,C1068,Priya Reddy,priya.reddy@example.com,9326667850,Hyderabad,2025-11-19,Phone Case,3,299.0,Credit Card,Delivered,3,897.0
+ORD10199,C1102,Meera Kumar,meera.kumar@example.com,7673899756,Delhi,2025-06-26,Webcam HD,3,1899.0,Unknown,Delivered,1,5697.0
+ORD10200,C1129,Meera Kumar,meera.kumar@example.com,6174907539,Bengaluru,2025-05-13,Wireless Mouse,3,799.0,Cash on Delivery,Shipped,5,2397.0
+ORD10201,C1121,Pooja Iyer,pooja.iyer@example.com,9497677622,Chennai,2025-07-09,Power Bank,1,1499.0,Net Banking,Returned,3,1499.0
+ORD10202,C1078,Diya Gupta,diya.gupta@example.com,7960443270,Hyderabad,2025-09-06,Webcam HD,2,1899.0,UPI,Delivered,1,3798.0
+ORD10203,C1059,Pooja Kumar,pooja.kumar@example.com,8120948181,Mumbai,2025-12-10,Bluetooth Speaker,1,1599.0,Net Banking,Pending,4,1599.0
+ORD10204,C1087,Nisha Sharma,nisha.sharma@example.com,not_provided,Mumbai,2025-01-13,USB-C Hub,4,1299.0,Cash on Delivery,Shipped,4,5196.0
+ORD10206,C1000,Meera Iyer,meera.iyer@example.com,8398402891,Bengaluru,2025-11-03,Power Bank,2,1499.0,Cash on Delivery,Cancelled,2,2998.0
+ORD10207,C1084,Karthik Singh,karthik.singh@example.com,6268768118,Unknown,2025-11-08,USB-C Hub,1,1299.0,Net Banking,Delivered,5,1299.0
+ORD10208,C1077,Karthik Reddy,karthik.reddy@example.com,9930361498,Chennai,2025-07-05,Laptop Stand,5,999.0,UPI,Pending,4,4995.0
+ORD10209,C1116,Arjun Rao,arjun.rao@example.com,8187758030,Bengaluru,2025-06-15,Phone Case,1,299.0,Net Banking,Pending,4,299.0
+ORD10210,C1085,Pooja Sharma,pooja.sharma@example.com,6583199717,Hyderabad,2025-08-31,Laptop Stand,1,999.0,Credit Card,Delivered,1,999.0
+ORD10211,C1002,Pooja Nair,pooja.nair@example.com,6507859311,Mumbai,2026-02-12,Phone Case,5,299.0,Net Banking,Shipped,3,1495.0
+ORD10213,C1054,Sneha Singh,sneha.singh@example.com,9205015081,Chennai,2026-02-18,Power Bank,3,1499.0,Net Banking,Returned,4,4497.0
+ORD10214,C1028,Rohan Kumar,rohan.kumar@example.com,8289611223,Hyderabad,2025-08-22,Laptop Stand,2,999.0,Credit Card,Cancelled,5,1998.0
+ORD10215,C1120,Karthik Reddy,karthik.reddy@example.com,8787255877,Delhi,2025-09-18,Mechanical Keyboard,1,2499.0,Net Banking,Cancelled,1,2499.0
+ORD10216,C1131,Vivaan Singh,vivaan.singh@example.com,9575460273,Delhi,2025-08-19,Bluetooth Speaker,4,1599.0,Net Banking,Cancelled,2,6396.0
+ORD10217,C1035,Karthik Menon,karthik.menon@example.com,8669078263,Delhi,2026-01-30,Webcam HD,1,1899.0,Cash on Delivery,Returned,4,1899.0
+ORD10218,C1002,Rohan Patel,rohan.patel@example.com,not_provided,Mumbai,2025-04-26,Bluetooth Speaker,3,1599.0,Net Banking,Cancelled,4,4797.0
+ORD10219,C1098,Karthik Reddy,karthik.reddy@example.com,6580256621,Hyderabad,2025-05-30,Laptop Stand,2,999.0,UPI,Returned,2,1998.0
+ORD10220,C1102,Vikram Reddy,vikram.reddy@example.com,9901475469,Delhi,2025-10-19,Laptop Stand,3,999.0,Net Banking,Shipped,3,2997.0
+ORD10221,C1105,Karthik Singh,karthik.singh@example.com,9724380701,Delhi,2025-02-09,Mechanical Keyboard,3,2499.0,UPI,Cancelled,4,7497.0
+ORD10222,C1025,Priya Sharma,priya.sharma@example.com,6042752308,Chennai,2025-10-01,Webcam HD,1,0.1899,Net Banking,Delivered,3,0.1899
+ORD10223,C1016,Ishaan Nair,ishaan.nair@example.com,9815583938,Chennai,2026-01-06,Mechanical Keyboard,1,2499.0,Credit Card,Delivered,4,2499.0
+ORD10224,C1145,Diya Rao,diya.rao@example.com,7525715099,Chennai,2025-11-04,Webcam HD,2,1899.0,Cash on Delivery,Pending,4,3798.0
+ORD10225,C1113,Sneha Menon,sneha.menon@example.com,8035533803,Hyderabad,2025-06-12,USB-C Hub,2,1299.0,UPI,Pending,5,2598.0
+ORD10226,C1042,Vikram Patel,vikram.patel@example.com,8973471566,Chennai,2025-04-01,Laptop Stand,4,999.0,Credit Card,Returned,4,3996.0
+ORD10227,C1096,Vikram Patel,vikram.patel@example.com,7230085766,Delhi,2025-06-20,Power Bank,1,1499.0,Credit Card,Cancelled,4,1499.0
+ORD10228,C1098,Kavya Sharma,kavya.sharma@example.com,6249724399,Mumbai,2025-09-02,Laptop Stand,2,999.0,UPI,Delivered,2,1998.0
+ORD10229,C1027,Pooja Reddy,pooja.reddy@example.com,8027011686,Delhi,2025-05-18,Bluetooth Speaker,1,1599.0,Credit Card,Delivered,4,1599.0
+ORD10230,C1020,Diya Iyer,diya.iyer@example.com,not_provided,Hyderabad,2025-03-05,Mechanical Keyboard,4,2499.0,Cash on Delivery,Delivered,4,9996.0
+ORD10231,C1014,Rahul Kumar,rahul.kumar@example.com,9209184357,Hyderabad,2025-01-02,Bluetooth Speaker,2,1599.0,Net Banking,Shipped,1,3198.0
+ORD10232,C1098,Nisha Reddy,nisha.reddy@example.com,9148727178,Hyderabad,2025-09-24,Laptop Stand,1,999.0,UPI,Shipped,3,999.0
+ORD10233,C1085,Nisha Reddy,nisha.reddy@example.com,9334141115,Chennai,2025-07-13,Mechanical Keyboard,2,2499.0,Net Banking,Cancelled,3,4998.0
+ORD10234,C1137,Rahul Sharma,rahul.sharma@example.com,9729420954,Mumbai,2026-02-22,Bluetooth Speaker,1,1599.0,Cash on Delivery,Returned,4,1599.0
+ORD10235,C1140,Priya Sharma,priya.sharma@example.com,9618443861,Mumbai,2025-12-14,Bluetooth Speaker,4,1599.0,Net Banking,Delivered,4,6396.0
+ORD10236,C1014,Pooja Iyer,pooja.iyer@example.com,8962630136,Bengaluru,2025-04-02,Bluetooth Speaker,5,1599.0,UPI,Delivered,4,7995.0
+ORD10237,C1024,Nisha Patel,nisha.patel@example.com,7151826068,Delhi,2025-09-05,USB-C Hub,4,1299.0,Net Banking,Pending,3,5196.0
+ORD10238,C1021,Arjun Sharma,arjun.sharma@example.com,6340848729,Bengaluru,2025-10-06,Webcam HD,3,1899.0,Credit Card,Pending,5,5697.0
+ORD10239,C1097,Arjun Patel,arjun.patel@example.com,7831435989,Chennai,2025-02-12,Phone Case,5,299.0,Cash on Delivery,Delivered,4,1495.0
+ORD10240,C1096,Aarav Reddy,aarav.reddy@example.com,8971859484,Unknown,2026-02-05,Phone Case,1,299.0,UPI,Delivered,5,299.0
+ORD10241,C1094,Arjun Sharma,not_provided,9844683414,Chennai,2025-04-04,Phone Case,5,299.0,Net Banking,Delivered,4,1495.0
+ORD10242,C1003,Diya Kumar,diya.kumar@example.com,8389097283,Delhi,2026-01-01,Laptop Stand,1,999.0,Net Banking,Cancelled,3,999.0
+ORD10243,C1078,Rahul Nair,rahul.nair@example.com,8097545105,Delhi,2025-11-13,Wireless Mouse,5,799.0,Net Banking,Cancelled,1,3995.0
+ORD10244,C1112,Diya Singh,diya.singh@example.com,8313402665,Chennai,2026-01-18,USB-C Hub,3,1299.0,Net Banking,Shipped,4,3897.0
+ORD10245,C1039,Aarav Iyer,aarav.iyer@example.com,6674471639,Hyderabad,2025-01-27,Wireless Mouse,2,799.0,Cash on Delivery,Shipped,5,1598.0
+ORD10246,C1009,Rohan Kumar,rohan.kumar@example.com,6066843356,Hyderabad,2025-08-07,Laptop Stand,1,999.0,UPI,Pending,4,999.0
+ORD10247,C1125,Priya Patel,priya.patel@example.com,7555989534,Hyderabad,2025-02-27,Bluetooth Speaker,2,1599.0,UPI,Delivered,2,3198.0
+ORD10248,C1032,Rohan Sharma,rohan.sharma@example.com,not_provided,Chennai,2026-01-24,Phone Case,2,299.0,Cash on Delivery,Shipped,1,598.0
+ORD10249,C1000,Karthik Iyer,karthik.iyer@example.com,8434481230,Chennai,2026-02-09,Laptop Stand,1,999.0,Net Banking,Delivered,3,999.0
+ORD10250,C1104,Arjun Iyer,arjun.iyer@example.com,7424089164,Delhi,2025-01-30,Webcam HD,3,1899.0,UPI,Shipped,5,5697.0
+ORD10251,C1005,Priya Patel,priya.patel@example.com,7121637618,Hyderabad,2026-02-23,USB-C Hub,1,1299.0,Unknown,Delivered,4,1299.0
+ORD10252,C1035,Ananya Nair,ananya.nair@example.com,7308481001,Mumbai,2025-06-07,Power Bank,1,1499.0,Cash on Delivery,Pending,4,1499.0
+ORD10253,C1019,Meera Gupta,meera.gupta@example.com,7268592624,Delhi,2025-07-04,Bluetooth Speaker,1,0.1599,UPI,Delivered,5,0.1599
+ORD10254,C1147,Ananya Reddy,ananya.reddy@example.com,7655767695,Mumbai,2025-02-16,Webcam HD,1,1899.0,Cash on Delivery,Cancelled,4,1899.0
+ORD10255,C1121,Kavya Rao,kavya.rao@example.com,8728633302,Chennai,2025-06-28,Mechanical Keyboard,1,2499.0,Unknown,Cancelled,1,2499.0
+ORD10256,C1135,Nisha Iyer,nisha.iyer@example.com,6412009282,Hyderabad,2026-01-05,Power Bank,4,1499.0,Cash on Delivery,Cancelled,4,5996.0
+ORD10257,C1122,Ananya Singh,ananya.singh@example.com,9341115950,Hyderabad,2025-03-26,Phone Case,4,299.0,UPI,Delivered,3,1196.0
+ORD10258,C1091,Meera Sharma,meera.sharma@example.com,8215681820,Hyderabad,2025-06-11,Phone Case,2,299.0,Net Banking,Delivered,5,598.0
+ORD10259,C1033,Ishaan Singh,ishaan.singh@example.com,9339912971,Hyderabad,2025-11-16,Webcam HD,3,1899.0,Net Banking,Shipped,3,5697.0
+ORD10260,C1031,Vikram Iyer,vikram.iyer@example.com,9927589551,Delhi,2025-07-06,Power Bank,1,1499.0,Cash on Delivery,Shipped,1,1499.0
+ORD10261,C1021,Vikram Reddy,vikram.reddy@example.com,9515597371,Chennai,2026-01-29,Mechanical Keyboard,4,2499.0,Net Banking,Delivered,3,9996.0
+ORD10262,C1045,Arjun Patel,arjun.patel@example.com,8768342016,Bengaluru,2025-05-21,USB-C Hub,1,1299.0,Net Banking,Delivered,4,1299.0
+ORD10263,C1038,Ishaan Sharma,ishaan.sharma@example.com,8807279103,Mumbai,2025-06-12,USB-C Hub,5,1299.0,UPI,Pending,3,6495.0
+ORD10264,C1138,Kavya Gupta,not_provided,not_provided,Mumbai,2025-04-01,Bluetooth Speaker,1,1599.0,Net Banking,Delivered,2,1599.0
+ORD10265,C1050,Rahul Reddy,not_provided,9053844446,Mumbai,2026-02-11,Mechanical Keyboard,3,2499.0,Net Banking,Cancelled,1,7497.0
+ORD10266,C1099,Pooja Iyer,not_provided,not_provided,Chennai,2025-09-22,Phone Case,3,299.0,Credit Card,Delivered,2,897.0
+ORD10267,C1049,Sneha Patel,sneha.patel@example.com,8120911791,Delhi,2026-01-30,Laptop Stand,4,999.0,Cash on Delivery,Shipped,4,3996.0
+ORD10268,C1076,Priya Iyer,priya.iyer@example.com,9998028413,Bengaluru,2025-03-02,USB-C Hub,3,1299.0,Cash on Delivery,Pending,3,3897.0
+ORD10269,C1131,Nisha Kumar,nisha.kumar@example.com,9199423767,Mumbai,2025-03-30,Laptop Stand,2,999.0,Credit Card,Cancelled,2,1998.0
+ORD10270,C1046,Aarav Reddy,aarav.reddy@example.com,7552510505,Hyderabad,2025-07-03,Phone Case,1,299.0,Credit Card,Cancelled,4,299.0
+ORD10271,C1126,Karthik Sharma,karthik.sharma@example.com,9295963904,Mumbai,2025-08-04,Wireless Mouse,2,0.799,UPI,Returned,5,1.598
+ORD10272,C1012,Nisha Menon,nisha.menon@example.com,6030021563,Mumbai,2025-09-10,Webcam HD,5,1899.0,UPI,Shipped,5,9495.0
+ORD10273,C1032,Vikram Reddy,vikram.reddy@example.com,6883977457,Hyderabad,2025-11-23,USB-C Hub,4,1299.0,Net Banking,Shipped,5,5196.0
+ORD10274,C1116,Ishaan Patel,ishaan.patel@example.com,9983631462,Chennai,2025-04-23,Mechanical Keyboard,1,2499.0,Cash on Delivery,Delivered,4,2499.0
+ORD10275,C1069,Vivaan Singh,vivaan.singh@example.com,9343629489,Hyderabad,2025-11-29,Mechanical Keyboard,1,2499.0,Net Banking,Delivered,1,2499.0
+ORD10276,C1052,Arjun Singh,arjun.singh@example.com,6128974325,Chennai,2025-11-23,Laptop Stand,3,999.0,Cash on Delivery,Delivered,5,2997.0
+ORD10277,C1004,Diya Sharma,diya.sharma@example.com,6145775847,Delhi,2025-09-26,Webcam HD,2,1899.0,Credit Card,Returned,1,3798.0
+ORD10278,C1007,Kavya Singh,kavya.singh@example.com,9148782455,Unknown,2025-04-16,Phone Case,3,299.0,UPI,Shipped,5,897.0
+ORD10279,C1142,Meera Menon,not_provided,6703491074,Chennai,2025-05-28,Webcam HD,5,1899.0,UPI,Cancelled,1,9495.0
+ORD10280,C1098,Kavya Nair,kavya.nair@example.com,7965923426,Mumbai,2025-05-14,Phone Case,1,299.0,Cash on Delivery,Shipped,2,299.0
+ORD10281,C1143,Vikram Sharma,vikram.sharma@example.com,7985298940,Bengaluru,2026-01-22,Phone Case,1,299.0,Credit Card,Cancelled,1,299.0
+ORD10282,C1132,Vivaan Nair,vivaan.nair@example.com,not_provided,Chennai,2025-04-25,Power Bank,1,1499.0,Credit Card,Shipped,4,1499.0
+ORD10283,C1037,Diya Kumar,diya.kumar@example.com,7774419754,Bengaluru,2026-02-24,USB-C Hub,1,1299.0,Credit Card,Delivered,4,1299.0
+ORD10285,C1027,Sneha Reddy,sneha.reddy@example.com,6266109410,Mumbai,2026-01-25,Power Bank,3,1499.0,Credit Card,Cancelled,1,4497.0
+ORD10286,C1052,Aarav Reddy,aarav.reddy@example.com,6528733978,Bengaluru,2025-07-04,USB-C Hub,1,1299.0,Unknown,Pending,3,1299.0
+ORD10287,C1017,Rahul Gupta,rahul.gupta@example.com,9908197400,Chennai,2025-10-01,Webcam HD,1,1899.0,Credit Card,Shipped,4,1899.0
+ORD10288,C1020,Ananya Kumar,ananya.kumar@example.com,6783567430,Delhi,2025-05-19,Power Bank,2,1499.0,UPI,Shipped,3,2998.0
+ORD10289,C1014,Ishaan Kumar,ishaan.kumar@example.com,9890030102,Chennai,2025-10-29,Laptop Stand,1,999.0,UPI,Shipped,4,999.0
+ORD10290,C1093,Vikram Patel,vikram.patel@example.com,6056974132,Delhi,2025-09-27,Webcam HD,2,1899.0,Cash on Delivery,Pending,4,3798.0
+ORD10291,C1004,Rahul Singh,rahul.singh@example.com,9268040850,Mumbai,2025-01-23,Phone Case,5,299.0,Credit Card,Shipped,1,1495.0
+ORD10292,C1097,Arjun Iyer,arjun.iyer@example.com,6384596094,Mumbai,2025-01-08,Laptop Stand,1,999.0,Cash on Delivery,Shipped,1,999.0
+ORD10293,C1112,Ishaan Reddy,ishaan.reddy@example.com,not_provided,Chennai,2025-05-13,Webcam HD,2,1899.0,Net Banking,Delivered,3,3798.0
+ORD10294,C1083,Sneha Nair,sneha.nair@example.com,7059556574,Delhi,2025-02-06,Bluetooth Speaker,4,1599.0,Net Banking,Cancelled,1,6396.0
+ORD10295,C1057,Ananya Reddy,ananya.reddy@example.com,9543943535,Delhi,2025-09-28,Phone Case,1,299.0,UPI,Cancelled,2,299.0
+ORD10296,C1149,Sneha Kumar,sneha.kumar@example.com,6668297327,Chennai,2025-06-24,Webcam HD,2,1899.0,Cash on Delivery,Delivered,4,3798.0
+ORD10297,C1030,Sneha Patel,sneha.patel@example.com,8767647229,Hyderabad,2026-01-05,Bluetooth Speaker,1,1599.0,UPI,Delivered,5,1599.0
+ORD10299,C1133,Pooja Singh,pooja.singh@example.com,9741241513,Chennai,2025-02-26,Power Bank,2,1499.0,UPI,Delivered,3,2998.0
+ORD10300,C1035,Aarav Nair,aarav.nair@example.com,9272742318,Delhi,2025-12-11,Phone Case,2,299.0,Credit Card,Cancelled,2,598.0
+ORD10301,C1091,Nisha Kumar,nisha.kumar@example.com,8675361275,Delhi,2025-02-19,Power Bank,2,1499.0,Credit Card,Cancelled,3,2998.0
+ORD10302,C1102,Vikram Kumar,vikram.kumar@example.com,not_provided,Hyderabad,2025-09-06,Wireless Mouse,2,799.0,Credit Card,Pending,4,1598.0
+ORD10304,C1150,Rohan Reddy,rohan.reddy@example.com,6447314976,Mumbai,2026-02-06,Laptop Stand,2,0.999,Cash on Delivery,Delivered,4,1.998
+ORD10305,C1094,Sneha Singh,sneha.singh@example.com,6823793126,Mumbai,2025-06-20,Mechanical Keyboard,2,2499.0,Credit Card,Delivered,4,4998.0
+ORD10306,C1142,Nisha Rao,nisha.rao@example.com,7028123710,Bengaluru,2025-12-25,Mechanical Keyboard,4,2499.0,UPI,Delivered,3,9996.0
+ORD10307,C1095,Karthik Menon,karthik.menon@example.com,7287056227,Unknown,2025-08-25,Webcam HD,5,1899.0,Credit Card,Shipped,4,9495.0
+ORD10308,C1103,Meera Gupta,meera.gupta@example.com,7424912896,Hyderabad,2025-10-31,Laptop Stand,1,999.0,Credit Card,Returned,4,999.0
+ORD10309,C1143,Diya Nair,diya.nair@example.com,8858193242,Mumbai,2025-12-28,Phone Case,2,299.0,Net Banking,Returned,5,598.0
+ORD10311,C1033,Rohan Iyer,rohan.iyer@example.com,6518439055,Bengaluru,2025-01-29,Phone Case,1,299.0,Net Banking,Pending,1,299.0
+ORD10312,C1070,Aarav Patel,aarav.patel@example.com,6971112125,Delhi,2025-06-24,Bluetooth Speaker,1,1599.0,Net Banking,Delivered,4,1599.0
+ORD10313,C1048,Pooja Nair,pooja.nair@example.com,8175955872,Hyderabad,2025-06-01,Laptop Stand,1,999.0,Cash on Delivery,Delivered,3,999.0
+ORD10314,C1047,Diya Rao,diya.rao@example.com,9905150267,Mumbai,2025-10-28,USB-C Hub,2,1299.0,Cash on Delivery,Delivered,3,2598.0
+ORD10315,C1027,Sneha Rao,sneha.rao@example.com,6282498392,Mumbai,2025-10-23,Phone Case,2,299.0,Net Banking,Delivered,2,598.0
+ORD10316,C1122,Kavya Sharma,kavya.sharma@example.com,7767316252,Chennai,2025-08-30,Bluetooth Speaker,1,1599.0,Unknown,Shipped,4,1599.0
+ORD10318,C1013,Rahul Kumar,rahul.kumar@example.com,8758512686,Hyderabad,2026-01-15,Phone Case,2,299.0,UPI,Delivered,4,598.0
+ORD10319,C1138,Meera Sharma,meera.sharma@example.com,9540915086,Hyderabad,2025-07-02,USB-C Hub,2,1299.0,Net Banking,Delivered,3,2598.0
+ORD10320,C1025,Rohan Menon,rohan.menon@example.com,9024161394,Mumbai,2025-11-23,Mechanical Keyboard,3,2499.0,Unknown,Delivered,5,7497.0
+ORD10321,C1118,Arjun Patel,not_provided,8319497969,Unknown,2025-04-24,Bluetooth Speaker,1,1599.0,Credit Card,Returned,3,1599.0
+ORD10322,C1053,Kavya Reddy,kavya.reddy@example.com,9029929596,Delhi,2025-05-30,Bluetooth Speaker,2,1599.0,Cash on Delivery,Shipped,3,3198.0
+ORD10323,C1055,Pooja Gupta,pooja.gupta@example.com,8888636774,Mumbai,2026-01-30,Webcam HD,3,1899.0,Cash on Delivery,Delivered,4,5697.0
+ORD10324,C1083,Pooja Sharma,pooja.sharma@example.com,6509688327,Delhi,2025-10-19,Laptop Stand,1,999.0,Net Banking,Delivered,4,999.0
+ORD10325,C1062,Ishaan Iyer,ishaan.iyer@example.com,9616481980,Mumbai,2026-01-19,Mechanical Keyboard,2,2499.0,UPI,Delivered,5,4998.0
+ORD10326,C1086,Kavya Kumar,kavya.kumar@example.com,8177345475,Chennai,2025-04-18,Laptop Stand,5,999.0,Cash on Delivery,Shipped,1,4995.0
+ORD10327,C1074,Rohan Menon,rohan.menon@example.com,7904588679,Mumbai,2025-01-15,Webcam HD,2,1899.0,Credit Card,Delivered,4,3798.0
+ORD10328,C1091,Diya Nair,diya.nair@example.com,8061581488,Mumbai,2026-01-18,Power Bank,1,1499.0,Credit Card,Returned,4,1499.0
+ORD10329,C1077,Rohan Rao,rohan.rao@example.com,6805137171,Bengaluru,2025-05-05,Laptop Stand,2,999.0,Net Banking,Delivered,3,1998.0
+ORD10330,C1045,Arjun Singh,arjun.singh@example.com,7548847127,Hyderabad,2025-11-27,Power Bank,2,1499.0,Cash on Delivery,Pending,4,2998.0
+ORD10331,C1076,Nisha Reddy,nisha.reddy@example.com,9229258796,Unknown,2025-06-15,Laptop Stand,1,999.0,Credit Card,Shipped,4,999.0
+ORD10332,C1070,Rohan Singh,rohan.singh@example.com,8056658833,Bengaluru,2025-12-05,Laptop Stand,2,999.0,Cash on Delivery,Delivered,2,1998.0
+ORD10333,C1137,Ishaan Patel,ishaan.patel@example.com,6562294938,Hyderabad,2025-02-26,Power Bank,2,1499.0,Net Banking,Shipped,5,2998.0
+ORD10334,C1119,Priya Gupta,priya.gupta@example.com,8902166670,Chennai,2025-06-20,Power Bank,3,1499.0,Credit Card,Delivered,4,4497.0
+ORD10335,C1048,Vikram Menon,not_provided,7512957860,Bengaluru,2025-08-27,Phone Case,2,299.0,Net Banking,Delivered,4,598.0
+ORD10336,C1078,Rohan Nair,not_provided,8155333426,Chennai,2025-10-01,Mechanical Keyboard,1,2499.0,UPI,Shipped,5,2499.0
+ORD10337,C1148,Priya Rao,priya.rao@example.com,not_provided,Delhi,2026-01-23,Mechanical Keyboard,1,2499.0,Credit Card,Pending,2,2499.0
+ORD10338,C1004,Rahul Singh,rahul.singh@example.com,6282270093,Hyderabad,2025-03-14,Bluetooth Speaker,1,1599.0,Credit Card,Cancelled,3,1599.0
+ORD10339,C1084,Aarav Sharma,aarav.sharma@example.com,6869822105,Bengaluru,2026-01-12,Power Bank,1,1499.0,Credit Card,Cancelled,2,1499.0
+ORD10340,C1126,Diya Singh,diya.singh@example.com,7116491334,Unknown,2025-04-23,Laptop Stand,1,999.0,Credit Card,Cancelled,4,999.0
+ORD10341,C1036,Priya Sharma,priya.sharma@example.com,9753967379,Bengaluru,2025-07-23,Laptop Stand,1,999.0,Cash on Delivery,Delivered,5,999.0
+ORD10342,C1032,Aarav Rao,aarav.rao@example.com,7547681826,Bengaluru,2025-02-26,Laptop Stand,5,999.0,UPI,Shipped,1,4995.0
+ORD10343,C1138,Sneha Iyer,sneha.iyer@example.com,8686775240,Delhi,2025-05-23,Phone Case,2,299.0,UPI,Pending,5,598.0
+ORD10344,C1018,Sneha Gupta,sneha.gupta@example.com,7724501848,Chennai,2025-07-25,Webcam HD,1,1899.0,UPI,Shipped,4,1899.0
+ORD10345,C1057,Nisha Patel,not_provided,9660144485,Delhi,2026-01-10,Mechanical Keyboard,1,2499.0,Cash on Delivery,Cancelled,2,2499.0
+ORD10346,C1027,Vivaan Menon,not_provided,9605779806,Delhi,2025-03-02,Mechanical Keyboard,1,2499.0,Credit Card,Shipped,3,2499.0
+ORD10347,C1053,Arjun Iyer,arjun.iyer@example.com,9155983541,Unknown,2026-01-21,Bluetooth Speaker,4,1599.0,Cash on Delivery,Cancelled,4,6396.0
+ORD10349,C1123,Aarav Menon,aarav.menon@example.com,9454655358,Mumbai,2025-07-31,Phone Case,2,299.0,Credit Card,Delivered,5,598.0
+ORD10350,C1068,Sneha Singh,sneha.singh@example.com,9120878057,Delhi,2025-11-13,Wireless Mouse,2,799.0,Net Banking,Cancelled,2,1598.0
+ORD10351,C1138,Pooja Iyer,pooja.iyer@example.com,6191862339,Delhi,2025-11-09,Bluetooth Speaker,1,1599.0,UPI,Delivered,4,1599.0
+ORD10352,C1066,Ananya Iyer,not_provided,9184090805,Mumbai,2025-06-29,Laptop Stand,2,999.0,UPI,Delivered,3,1998.0
+ORD10353,C1045,Kavya Menon,kavya.menon@example.com,6814415298,Mumbai,2026-02-21,USB-C Hub,1,1299.0,Net Banking,Returned,4,1299.0
+ORD10354,C1091,Rahul Sharma,rahul.sharma@example.com,9834527346,Bengaluru,2025-09-24,Power Bank,1,1499.0,UPI,Cancelled,2,1499.0
+ORD10355,C1012,Priya Gupta,priya.gupta@example.com,8806882850,Delhi,2025-06-05,Wireless Mouse,1,0.799,Unknown,Returned,3,0.799
+ORD10356,C1058,Priya Kumar,priya.kumar@example.com,not_provided,Hyderabad,2025-03-21,Phone Case,1,299.0,Credit Card,Shipped,4,299.0
+ORD10357,C1072,Arjun Kumar,arjun.kumar@example.com,6631873280,Delhi,2025-10-19,Webcam HD,2,1899.0,Cash on Delivery,Delivered,2,3798.0
+ORD10358,C1145,Ishaan Sharma,not_provided,9306624813,Bengaluru,2025-05-09,USB-C Hub,3,1299.0,Unknown,Cancelled,4,3897.0
+ORD10359,C1026,Vivaan Iyer,vivaan.iyer@example.com,6309810796,Chennai,2025-01-02,Wireless Mouse,4,799.0,UPI,Returned,4,3196.0
+ORD10360,C1110,Kavya Sharma,kavya.sharma@example.com,7625366677,Hyderabad,2025-08-24,USB-C Hub,1,1299.0,Net Banking,Returned,5,1299.0
+ORD10361,C1100,Meera Nair,meera.nair@example.com,9033582686,Chennai,2025-10-05,Power Bank,1,1499.0,Net Banking,Delivered,4,1499.0
+ORD10362,C1016,Vivaan Reddy,vivaan.reddy@example.com,8532341595,Bengaluru,2025-01-28,Wireless Mouse,1,799.0,Cash on Delivery,Cancelled,3,799.0
+ORD10363,C1024,Rohan Singh,rohan.singh@example.com,not_provided,Bengaluru,2025-08-31,USB-C Hub,4,1299.0,Net Banking,Cancelled,2,5196.0
+ORD10364,C1106,Nisha Sharma,nisha.sharma@example.com,not_provided,Chennai,2025-04-09,Bluetooth Speaker,2,1599.0,Cash on Delivery,Returned,2,3198.0
+ORD10365,C1087,Pooja Kumar,pooja.kumar@example.com,8417158102,Chennai,2025-10-10,Bluetooth Speaker,2,0.1599,Credit Card,Delivered,3,0.3198
+ORD10366,C1031,Diya Menon,diya.menon@example.com,6106330165,Bengaluru,2026-01-17,USB-C Hub,2,1299.0,UPI,Shipped,4,2598.0
+ORD10367,C1047,Ananya Nair,ananya.nair@example.com,8364538044,Hyderabad,2025-07-22,Laptop Stand,1,999.0,Cash on Delivery,Delivered,2,999.0
+ORD10368,C1067,Ananya Menon,ananya.menon@example.com,9475833920,Hyderabad,2026-01-16,Power Bank,3,1499.0,Net Banking,Returned,4,4497.0
+ORD10369,C1111,Kavya Sharma,kavya.sharma@example.com,9724530762,Chennai,2025-04-22,USB-C Hub,1,1299.0,UPI,Shipped,4,1299.0
+ORD10370,C1003,Pooja Singh,pooja.singh@example.com,6928455259,Hyderabad,2025-11-19,USB-C Hub,3,1299.0,Cash on Delivery,Delivered,4,3897.0
+ORD10371,C1060,Sneha Menon,sneha.menon@example.com,9295187794,Chennai,2025-01-10,Power Bank,5,1499.0,Cash on Delivery,Cancelled,4,7495.0
+ORD10372,C1030,Karthik Nair,karthik.nair@example.com,9604432400,Hyderabad,2025-09-26,Wireless Mouse,2,799.0,Cash on Delivery,Cancelled,4,1598.0
+ORD10373,C1141,Vivaan Gupta,not_provided,not_provided,Mumbai,2025-06-11,Bluetooth Speaker,1,1599.0,Net Banking,Delivered,4,1599.0
+ORD10375,C1042,Kavya Rao,kavya.rao@example.com,8858623945,Mumbai,2025-10-02,Laptop Stand,1,999.0,UPI,Shipped,4,999.0
+ORD10376,C1077,Karthik Menon,karthik.menon@example.com,7804032537,Hyderabad,2025-11-28,Power Bank,1,1499.0,Credit Card,Returned,4,1499.0
+ORD10377,C1097,Meera Singh,meera.singh@example.com,7651460401,Unknown,2025-01-28,USB-C Hub,1,1299.0,Cash on Delivery,Shipped,4,1299.0
+ORD10378,C1005,Arjun Patel,arjun.patel@example.com,6660076762,Delhi,2026-01-10,Power Bank,1,1499.0,Credit Card,Delivered,5,1499.0
+ORD10379,C1073,Sneha Sharma,sneha.sharma@example.com,7558825562,Hyderabad,2025-08-22,Mechanical Keyboard,3,2499.0,Net Banking,Returned,5,7497.0
+ORD10380,C1129,Vivaan Gupta,vivaan.gupta@example.com,9161880819,Chennai,2026-02-13,Bluetooth Speaker,1,1599.0,Credit Card,Pending,3,1599.0
+ORD10381,C1048,Vikram Iyer,vikram.iyer@example.com,7643813000,Bengaluru,2025-03-15,Mechanical Keyboard,5,2499.0,UPI,Shipped,3,12495.0
+ORD10382,C1008,Vivaan Singh,vivaan.singh@example.com,9816995706,Mumbai,2025-01-16,Bluetooth Speaker,3,1599.0,Cash on Delivery,Delivered,4,4797.0
+ORD10383,C1032,Diya Sharma,not_provided,8968049187,Delhi,2025-02-05,Wireless Mouse,5,799.0,Credit Card,Shipped,3,3995.0
+ORD10384,C1113,Nisha Nair,nisha.nair@example.com,9756085816,Bengaluru,2025-03-13,Mechanical Keyboard,1,2499.0,Credit Card,Shipped,4,2499.0
+ORD10385,C1067,Kavya Rao,kavya.rao@example.com,not_provided,Mumbai,2025-10-26,Mechanical Keyboard,1,2499.0,Net Banking,Pending,5,2499.0
+ORD10386,C1032,Ananya Iyer,ananya.iyer@example.com,7653460605,Delhi,2025-09-02,USB-C Hub,1,1299.0,UPI,Shipped,5,1299.0
+ORD10387,C1016,Aarav Kumar,aarav.kumar@example.com,8647548954,Delhi,2026-01-31,Mechanical Keyboard,1,2499.0,UPI,Cancelled,3,2499.0
+ORD10388,C1061,Ishaan Gupta,ishaan.gupta@example.com,9449639243,Delhi,2025-06-06,Laptop Stand,3,999.0,Credit Card,Shipped,4,2997.0
+ORD10389,C1065,Ishaan Iyer,ishaan.iyer@example.com,9013477894,Delhi,2025-03-05,Mechanical Keyboard,2,2499.0,Net Banking,Shipped,1,4998.0
+ORD10390,C1052,Diya Kumar,diya.kumar@example.com,8633399948,Bengaluru,2025-02-27,Wireless Mouse,1,799.0,Cash on Delivery,Delivered,1,799.0
+ORD10391,C1117,Sneha Nair,sneha.nair@example.com,6346996733,Delhi,2025-04-23,USB-C Hub,1,1299.0,Cash on Delivery,Cancelled,4,1299.0
+ORD10392,C1036,Karthik Gupta,karthik.gupta@example.com,7556434369,Bengaluru,2026-02-08,Phone Case,1,299.0,Net Banking,Shipped,2,299.0
+ORD10393,C1097,Karthik Sharma,karthik.sharma@example.com,6418472426,Hyderabad,2025-02-16,Wireless Mouse,2,799.0,Credit Card,Shipped,4,1598.0
+ORD10394,C1019,Karthik Menon,karthik.menon@example.com,9852282305,Bengaluru,2026-02-23,Mechanical Keyboard,2,2499.0,Credit Card,Pending,1,4998.0
+ORD10395,C1096,Vivaan Reddy,vivaan.reddy@example.com,9886878599,Chennai,2025-08-24,Wireless Mouse,2,799.0,Unknown,Pending,4,1598.0
+ORD10396,C1035,Rohan Singh,rohan.singh@example.com,9476775372,Hyderabad,2025-03-14,Phone Case,2,299.0,UPI,Shipped,3,598.0
+ORD10397,C1049,Kavya Gupta,kavya.gupta@example.com,6083850765,Hyderabad,2025-02-21,USB-C Hub,1,1299.0,Credit Card,Cancelled,5,1299.0
+ORD10398,C1036,Vikram Patel,vikram.patel@example.com,9300402369,Chennai,2025-11-12,Laptop Stand,2,999.0,Net Banking,Delivered,4,1998.0
+ORD10399,C1095,Ishaan Menon,ishaan.menon@example.com,8933067458,Mumbai,2025-11-20,Webcam HD,3,1899.0,Cash on Delivery,Cancelled,1,5697.0
+ORD10400,C1020,Ishaan Patel,ishaan.patel@example.com,6666267055,Chennai,2025-12-06,USB-C Hub,5,1299.0,UPI,Shipped,4,6495.0
+ORD10401,C1138,Aarav Iyer,aarav.iyer@example.com,6720245591,Mumbai,2026-02-11,Power Bank,3,1499.0,Credit Card,Shipped,5,4497.0
+ORD10402,C1066,Vikram Menon,vikram.menon@example.com,6652775844,Chennai,2025-11-07,Mechanical Keyboard,5,2499.0,Credit Card,Shipped,5,12495.0
+ORD10403,C1104,Nisha Kumar,nisha.kumar@example.com,7635100462,Bengaluru,2025-08-31,Webcam HD,2,1899.0,UPI,Cancelled,5,3798.0
+ORD10404,C1061,Vivaan Iyer,vivaan.iyer@example.com,6055955017,Delhi,2025-04-14,Power Bank,2,1499.0,Credit Card,Delivered,5,2998.0
+ORD10405,C1072,Vikram Sharma,vikram.sharma@example.com,not_provided,Hyderabad,2025-10-29,Wireless Mouse,4,799.0,UPI,Shipped,4,3196.0
+ORD10406,C1013,Meera Menon,meera.menon@example.com,9852830615,Mumbai,2026-02-04,Laptop Stand,2,999.0,UPI,Delivered,2,1998.0
+ORD10407,C1000,Rohan Reddy,rohan.reddy@example.com,8188781794,Chennai,2025-04-02,Mechanical Keyboard,2,2499.0,UPI,Delivered,5,4998.0
+ORD10408,C1026,Rahul Kumar,rahul.kumar@example.com,not_provided,Delhi,2025-03-27,Phone Case,2,299.0,Credit Card,Shipped,1,598.0
+ORD10409,C1141,Nisha Singh,nisha.singh@example.com,7486401042,Delhi,2025-11-16,Bluetooth Speaker,1,1599.0,UPI,Delivered,5,1599.0
+ORD10410,C1024,Kavya Reddy,kavya.reddy@example.com,not_provided,Hyderabad,2025-03-05,Bluetooth Speaker,3,1599.0,Credit Card,Delivered,4,4797.0
+ORD10411,C1040,Diya Patel,diya.patel@example.com,6073228360,Delhi,2025-06-21,Laptop Stand,1,999.0,Credit Card,Returned,3,999.0
+ORD10412,C1029,Nisha Sharma,nisha.sharma@example.com,6320330162,Mumbai,2025-12-20,Laptop Stand,2,999.0,Credit Card,Delivered,1,1998.0
+ORD10413,C1052,Karthik Iyer,karthik.iyer@example.com,9460406720,Mumbai,2025-12-07,Bluetooth Speaker,2,1599.0,Credit Card,Pending,4,3198.0
+ORD10414,C1041,Rahul Patel,rahul.patel@example.com,9638821458,Mumbai,2025-03-10,Laptop Stand,5,999.0,UPI,Shipped,3,4995.0
+ORD10415,C1000,Nisha Rao,nisha.rao@example.com,8073214644,Chennai,2026-01-29,Wireless Mouse,3,799.0,Net Banking,Cancelled,2,2397.0
+ORD10416,C1119,Vivaan Nair,vivaan.nair@example.com,7333510409,Mumbai,2025-12-15,Mechanical Keyboard,1,2499.0,Net Banking,Shipped,4,2499.0
+ORD10417,C1105,Nisha Nair,nisha.nair@example.com,6655782019,Unknown,2025-09-15,Mechanical Keyboard,1,2499.0,Credit Card,Shipped,3,2499.0
+ORD10418,C1039,Meera Kumar,meera.kumar@example.com,8082611231,Bengaluru,2025-07-13,USB-C Hub,5,1299.0,UPI,Delivered,4,6495.0
+ORD10419,C1108,Karthik Singh,karthik.singh@example.com,6364687191,Chennai,2025-06-11,Power Bank,2,1499.0,Cash on Delivery,Shipped,3,2998.0
+ORD10420,C1141,Sneha Rao,sneha.rao@example.com,7206732318,Bengaluru,2025-05-13,Bluetooth Speaker,1,1599.0,Cash on Delivery,Delivered,4,1599.0
+ORD10421,C1020,Priya Menon,not_provided,8090255618,Bengaluru,2026-02-17,Laptop Stand,5,999.0,UPI,Shipped,3,4995.0
+ORD10422,C1011,Vikram Sharma,vikram.sharma@example.com,9551584826,Delhi,2025-12-05,Wireless Mouse,1,799.0,Cash on Delivery,Shipped,4,799.0
+ORD10423,C1090,Vikram Menon,vikram.menon@example.com,6164818804,Bengaluru,2025-02-03,USB-C Hub,1,1299.0,UPI,Pending,4,1299.0
+ORD10424,C1076,Meera Kumar,meera.kumar@example.com,9314417064,Chennai,2025-08-03,Wireless Mouse,2,799.0,Unknown,Cancelled,5,1598.0
+ORD10425,C1131,Arjun Patel,arjun.patel@example.com,not_provided,Delhi,2026-01-10,Wireless Mouse,2,799.0,UPI,Delivered,5,1598.0
+ORD10426,C1023,Rohan Reddy,rohan.reddy@example.com,7391373265,Bengaluru,2026-01-05,Power Bank,5,1499.0,UPI,Cancelled,1,7495.0
+ORD10427,C1006,Priya Nair,priya.nair@example.com,7980365774,Bengaluru,2026-02-03,Mechanical Keyboard,3,2499.0,Net Banking,Cancelled,1,7497.0
+ORD10428,C1006,Nisha Gupta,nisha.gupta@example.com,not_provided,Unknown,2025-04-10,USB-C Hub,4,1299.0,Credit Card,Delivered,4,5196.0
+ORD10429,C1024,Vivaan Rao,vivaan.rao@example.com,7083566910,Bengaluru,2026-02-04,USB-C Hub,4,1299.0,UPI,Returned,2,5196.0
+ORD10430,C1053,Rohan Menon,rohan.menon@example.com,7480873543,Delhi,2026-01-19,Webcam HD,2,1899.0,UPI,Cancelled,1,3798.0
+ORD10431,C1065,Aarav Singh,aarav.singh@example.com,9489971842,Delhi,2026-01-23,USB-C Hub,4,1299.0,Net Banking,Shipped,3,5196.0
+ORD10432,C1144,Pooja Kumar,pooja.kumar@example.com,7617607234,Delhi,2025-11-15,Wireless Mouse,4,799.0,UPI,Cancelled,4,3196.0
+ORD10433,C1007,Pooja Gupta,pooja.gupta@example.com,9418696561,Delhi,2025-10-30,USB-C Hub,4,1299.0,Cash on Delivery,Pending,4,5196.0
+ORD10434,C1069,Meera Rao,meera.rao@example.com,6869661016,Bengaluru,2025-09-02,Wireless Mouse,1,799.0,Credit Card,Delivered,4,799.0
+ORD10435,C1113,Karthik Menon,karthik.menon@example.com,8407779462,Mumbai,2026-01-09,USB-C Hub,2,1299.0,Cash on Delivery,Delivered,4,2598.0
+ORD10436,C1101,Arjun Sharma,arjun.sharma@example.com,9312552356,Delhi,2025-04-10,Webcam HD,1,1899.0,Credit Card,Pending,2,1899.0
+ORD10437,C1031,Kavya Kumar,kavya.kumar@example.com,not_provided,Chennai,2025-02-08,Laptop Stand,5,999.0,Cash on Delivery,Cancelled,5,4995.0
+ORD10438,C1125,Priya Reddy,priya.reddy@example.com,9298579736,Delhi,2025-11-18,USB-C Hub,2,1299.0,Credit Card,Delivered,3,2598.0
+ORD10439,C1127,Vivaan Kumar,not_provided,6682122355,Chennai,2026-02-10,Phone Case,1,299.0,UPI,Cancelled,5,299.0
+ORD10440,C1136,Vivaan Rao,vivaan.rao@example.com,7205093869,Hyderabad,2025-11-16,Laptop Stand,4,999.0,Cash on Delivery,Delivered,5,3996.0
+ORD10441,C1139,Priya Nair,priya.nair@example.com,6974619177,Unknown,2025-09-02,Power Bank,4,1499.0,Credit Card,Pending,3,5996.0
+ORD10442,C1094,Priya Nair,priya.nair@example.com,9957900124,Bengaluru,2025-12-06,Webcam HD,1,1899.0,Cash on Delivery,Cancelled,5,1899.0
+ORD10443,C1139,Sneha Nair,sneha.nair@example.com,6528572562,Delhi,2025-07-27,Mechanical Keyboard,3,2499.0,Credit Card,Shipped,4,7497.0
+ORD10444,C1082,Aarav Menon,aarav.menon@example.com,8918911797,Mumbai,2025-04-25,Webcam HD,2,1899.0,UPI,Shipped,3,3798.0
+ORD10445,C1121,Karthik Kumar,karthik.kumar@example.com,8009421410,Delhi,2026-02-13,Mechanical Keyboard,2,2499.0,Net Banking,Returned,4,4998.0
+ORD10446,C1084,Priya Iyer,priya.iyer@example.com,9874422758,Delhi,2025-01-30,Phone Case,4,299.0,Cash on Delivery,Pending,5,1196.0
+ORD10447,C1010,Aarav Sharma,aarav.sharma@example.com,6321551305,Chennai,2025-11-24,Webcam HD,3,1899.0,Credit Card,Delivered,3,5697.0
+ORD10448,C1114,Sneha Kumar,sneha.kumar@example.com,8825431832,Mumbai,2025-03-18,Webcam HD,4,1899.0,UPI,Shipped,2,7596.0
+ORD10449,C1103,Priya Singh,priya.singh@example.com,9754584726,Delhi,2025-04-01,Mechanical Keyboard,5,2499.0,Credit Card,Cancelled,3,12495.0
+ORD10450,C1113,Karthik Nair,karthik.nair@example.com,7999362165,Chennai,2025-06-16,USB-C Hub,1,1299.0,Credit Card,Shipped,3,1299.0
+ORD10451,C1041,Nisha Nair,not_provided,not_provided,Mumbai,2025-01-11,Webcam HD,2,1899.0,Cash on Delivery,Delivered,4,3798.0
+ORD10453,C1020,Sneha Kumar,sneha.kumar@example.com,7391029295,Delhi,2025-08-24,Bluetooth Speaker,1,0.1599,UPI,Shipped,4,0.1599
+ORD10454,C1029,Rohan Iyer,rohan.iyer@example.com,9201911166,Chennai,2025-12-18,USB-C Hub,1,1299.0,Net Banking,Delivered,1,1299.0
+ORD10456,C1149,Kavya Iyer,kavya.iyer@example.com,7436585856,Mumbai,2025-04-28,Wireless Mouse,1,799.0,Net Banking,Shipped,1,799.0
+ORD10457,C1109,Ananya Kumar,not_provided,8815542034,Delhi,2025-04-27,Wireless Mouse,4,799.0,Credit Card,Delivered,2,3196.0
+ORD10458,C1064,Priya Nair,priya.nair@example.com,9010801810,Mumbai,2026-02-19,Mechanical Keyboard,1,2499.0,Cash on Delivery,Cancelled,3,2499.0
+ORD10460,C1103,Karthik Nair,karthik.nair@example.com,7159183270,Chennai,2025-08-12,Power Bank,2,1499.0,Unknown,Shipped,4,2998.0
+ORD10461,C1069,Ananya Menon,ananya.menon@example.com,7049980949,Delhi,2025-05-08,Wireless Mouse,3,799.0,UPI,Pending,4,2397.0
+ORD10462,C1068,Nisha Menon,nisha.menon@example.com,7389949919,Chennai,2026-01-26,Laptop Stand,2,999.0,Cash on Delivery,Delivered,5,1998.0
+ORD10463,C1139,Arjun Reddy,arjun.reddy@example.com,6170889480,Bengaluru,2025-12-17,Laptop Stand,3,999.0,Net Banking,Shipped,5,2997.0
+ORD10464,C1121,Vivaan Kumar,vivaan.kumar@example.com,6496112879,Hyderabad,2025-04-03,Power Bank,1,1499.0,Credit Card,Cancelled,4,1499.0
+ORD10466,C1036,Diya Kumar,diya.kumar@example.com,7089348688,Chennai,2025-11-19,Bluetooth Speaker,2,1599.0,Net Banking,Cancelled,3,3198.0
+ORD10467,C1041,Sneha Gupta,sneha.gupta@example.com,9052304588,Chennai,2025-04-30,Phone Case,1,299.0,Credit Card,Cancelled,1,299.0
+ORD10468,C1016,Nisha Singh,nisha.singh@example.com,9782141746,Delhi,2025-11-01,USB-C Hub,2,1299.0,UPI,Cancelled,3,2598.0
+ORD10469,C1087,Ananya Gupta,ananya.gupta@example.com,6929207536,Delhi,2026-02-16,Webcam HD,3,1899.0,UPI,Delivered,2,5697.0
+ORD10470,C1124,Vivaan Kumar,not_provided,8894204664,Bengaluru,2025-11-01,Wireless Mouse,2,799.0,Cash on Delivery,Returned,4,1598.0
+ORD10471,C1129,Sneha Nair,sneha.nair@example.com,not_provided,Delhi,2025-03-08,Wireless Mouse,4,799.0,Credit Card,Cancelled,4,3196.0
+ORD10472,C1017,Rohan Gupta,rohan.gupta@example.com,6158488600,Mumbai,2025-02-10,Wireless Mouse,1,799.0,Credit Card,Returned,3,799.0
+ORD10473,C1108,Arjun Iyer,arjun.iyer@example.com,8375365968,Bengaluru,2025-03-26,USB-C Hub,1,1299.0,UPI,Pending,5,1299.0
+ORD10474,C1078,Pooja Patel,pooja.patel@example.com,6123274897,Hyderabad,2025-06-23,Webcam HD,5,0.1899,Credit Card,Returned,4,0.9495
+ORD10475,C1099,Vivaan Reddy,not_provided,9935882493,Chennai,2025-06-18,Wireless Mouse,2,799.0,Credit Card,Shipped,1,1598.0
+ORD10476,C1067,Kavya Patel,kavya.patel@example.com,9993781053,Mumbai,2026-02-24,Wireless Mouse,2,799.0,Cash on Delivery,Pending,4,1598.0
+ORD10477,C1034,Nisha Menon,nisha.menon@example.com,9301986424,Mumbai,2025-08-19,Mechanical Keyboard,2,2499.0,Credit Card,Pending,4,4998.0
+ORD10478,C1142,Vivaan Menon,vivaan.menon@example.com,6232001867,Chennai,2025-03-04,USB-C Hub,1,1299.0,UPI,Delivered,4,1299.0
+ORD10479,C1074,Sneha Rao,sneha.rao@example.com,8682354695,Hyderabad,2025-10-29,Laptop Stand,1,999.0,UPI,Delivered,4,999.0
+ORD10480,C1108,Pooja Kumar,pooja.kumar@example.com,not_provided,Hyderabad,2025-01-07,Mechanical Keyboard,1,2499.0,Net Banking,Returned,1,2499.0
+ORD10481,C1110,Sneha Rao,sneha.rao@example.com,6505962571,Delhi,2025-09-28,Mechanical Keyboard,5,2499.0,Unknown,Delivered,4,12495.0
+ORD10482,C1018,Kavya Iyer,kavya.iyer@example.com,9774127469,Mumbai,2025-09-19,Bluetooth Speaker,3,1599.0,Cash on Delivery,Delivered,3,4797.0
+ORD10483,C1068,Arjun Gupta,arjun.gupta@example.com,not_provided,Chennai,2025-12-15,Mechanical Keyboard,3,2499.0,Cash on Delivery,Delivered,4,7497.0
+ORD10484,C1001,Ishaan Patel,ishaan.patel@example.com,8731261685,Bengaluru,2025-09-24,Mechanical Keyboard,5,2499.0,Credit Card,Delivered,1,12495.0
+ORD10485,C1058,Vivaan Gupta,vivaan.gupta@example.com,9169500741,Mumbai,2025-04-13,Wireless Mouse,1,799.0,UPI,Shipped,4,799.0
+ORD10486,C1051,Rohan Singh,rohan.singh@example.com,8502589632,Hyderabad,2026-01-30,Mechanical Keyboard,2,2499.0,UPI,Shipped,4,4998.0
+ORD10487,C1140,Karthik Menon,karthik.menon@example.com,7536462805,Unknown,2025-10-05,Webcam HD,2,1899.0,Credit Card,Returned,4,3798.0
+ORD10488,C1079,Vivaan Singh,vivaan.singh@example.com,9861902547,Bengaluru,2025-02-21,Mechanical Keyboard,2,2499.0,UPI,Delivered,3,4998.0
+ORD10489,C1002,Kavya Sharma,kavya.sharma@example.com,8325947950,Chennai,2025-02-10,Phone Case,1,299.0,Cash on Delivery,Delivered,4,299.0
+ORD10490,C1055,Meera Menon,meera.menon@example.com,8520360894,Hyderabad,2025-12-20,Wireless Mouse,2,799.0,UPI,Pending,5,1598.0
+ORD10491,C1015,Ananya Sharma,ananya.sharma@example.com,9801867740,Unknown,2025-11-26,Power Bank,1,1499.0,UPI,Pending,5,1499.0
+ORD10492,C1002,Ishaan Gupta,ishaan.gupta@example.com,7654262417,Chennai,2025-01-06,USB-C Hub,3,1299.0,UPI,Delivered,3,3897.0
+ORD10493,C1064,Pooja Rao,pooja.rao@example.com,9732904575,Unknown,2025-03-01,Wireless Mouse,1,799.0,UPI,Delivered,2,799.0
+ORD10494,C1118,Arjun Singh,arjun.singh@example.com,8238023621,Bengaluru,2025-08-16,USB-C Hub,1,1299.0,UPI,Cancelled,3,1299.0
+ORD10495,C1042,Vikram Singh,vikram.singh@example.com,7789318692,Bengaluru,2025-12-29,Phone Case,1,299.0,UPI,Pending,4,299.0
+ORD10496,C1015,Rohan Iyer,not_provided,7281165993,Hyderabad,2025-05-23,Mechanical Keyboard,2,2499.0,Net Banking,Delivered,3,4998.0
+ORD10497,C1023,Rohan Rao,rohan.rao@example.com,7005937775,Mumbai,2025-07-28,Bluetooth Speaker,1,1599.0,Cash on Delivery,Pending,4,1599.0
+ORD10498,C1007,Karthik Reddy,karthik.reddy@example.com,7291316708,Hyderabad,2025-02-04,Laptop Stand,2,999.0,Net Banking,Cancelled,3,1998.0
+ORD10499,C1076,Meera Patel,meera.patel@example.com,7396504962,Bengaluru,2025-07-20,Power Bank,4,1499.0,Credit Card,Delivered,3,5996.0
+ORD10500,C1126,Vivaan Rao,vivaan.rao@example.com,6996433853,Delhi,2025-03-17,Mechanical Keyboard,4,2499.0,Credit Card,Returned,3,9996.0
