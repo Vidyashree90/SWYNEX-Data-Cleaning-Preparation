@@ -1,5 +1,4 @@
 """SWYNEX Task 1 - Data Cleaning & Preparation
-Cleans raw_orders.csv -> cleaned_orders.csv and prints a before/after report."""
 import re
 import pandas as pd
 import numpy as np
